@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()  
+	  {        
+		float a, b , sum;
+		printf("Input the Value of a,b:");        
+		scanf("%f %f",&a,&b);        
+		sum=a+b;        
+		printf("The Sum: %f",sum);    
+	}
