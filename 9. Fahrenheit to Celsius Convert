@@ -1,0 +1,11 @@
+//F=(9*C+160)/5
+
+#include<stdio.h>
+  void main()    
+	{        
+	   float C,F;        
+	   printf("Input the Value C=");        
+	   scanf("%f",&C);       
+	   F=(9*C+160)/5;        
+	   printf("The Temperature in F: %f",F);    
+	}
