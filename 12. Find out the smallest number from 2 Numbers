@@ -1,0 +1,11 @@
+#include<stdio.h>
+      int main()    
+          {      
+              int a ,b ;      
+              printf("Enter The Value of a, b:");      
+              scanf("%d %d",&a, &b );      
+              if(a<b)      
+              printf("The Smallest Value is: %d",a);      
+              else      
+              printf("The Smallest Value is: %d",b);    
+            }
