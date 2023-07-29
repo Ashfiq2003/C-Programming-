@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()    
+  {      
+      float a ,b ;      
+      printf("Enter The Value of a, b:");      
+      scanf("%f %f",&a, &b );      
+      if(a>b)      
+      printf("The Largest Value is: %f",a);      
+      else      
+      printf("The Largest Value is: %f",b);    
+    }
